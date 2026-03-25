@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ParcialApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(RestServiceApplication.class, args);
+    SpringApplication.run(ParcialController.class, args);
   }
 
 }
